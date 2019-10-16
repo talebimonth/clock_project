@@ -5,9 +5,10 @@
 }
 
 body {
-  background: linear-gradient(to right, lightgreen, lightblue, blue);
+  background: linear-gradient(to right, lightgreen, lightblue, blue) no-repeat;
   display: flex;
   justify-content: center;
+  width: 100%;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
