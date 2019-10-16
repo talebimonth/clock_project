@@ -119,9 +119,9 @@ body {
   background: black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 681px) {
+@media only screen and (min-device-width : 544px) and (max-device-width : 681px) {
   .clock {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 }
