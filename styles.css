@@ -119,16 +119,21 @@ body {
   background: black;
 }
 
-@media only screen and (max-width: 544px) {
+@media screen and (max-width: 544px) {
   .clock {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
   }
-}
 
-@media only screen and (min-width: 544px) {
-  .clock {
-    width: 200px;
-    height: 200px;
+  .clock .number {
+    font-size: 12px;
+  }
+
+  .clock .hand.minute {
+    width: 4px;
+  }
+  
+  .clock .hand.hour {
+    width: 5px;
   }
 }
