@@ -11,6 +11,7 @@ body {
   width: 100%;
   align-items: center;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .header {
@@ -25,7 +26,6 @@ body {
   height: 500px;
   background-color: black;
   border-radius: 50%;
-  border: 5px solid blue;
   position: relative;
 }
 
